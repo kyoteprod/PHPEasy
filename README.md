@@ -1,5 +1,5 @@
 # PHPEasy - Basic Instillation Package
-PHPEasy basic package contains a simple user base CMS that uses MVC methodologies and is easy to install.
+PHPEasy basic package contains a simple user base CMS that uses MVC methodologies and is easy to install. We use the latest and diverse routers and templating systems to help kick-start your application.
 
 # Configuring Your PHPEasy CMS
 Once downloading EasyPHP you can get started straight away. Simply include the Autorun file in the root directory of PHPEasy.
