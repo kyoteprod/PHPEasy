@@ -11,7 +11,7 @@ $incDirectories = ['controllers', 'models'];
 $incRepositry = [];
 
 foreach($incDirectories as $incDir) {
-  $incRepositry[] = glob(_ROOT_DIR_ . '/' . $incDir . '/*php');
+  $incRepositry[] = glob(_ROOT_DIR_ . '/' . $incDir . '/*.php');
 }
 
 foreach($incRepositry as $incRep) {
