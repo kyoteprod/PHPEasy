@@ -9,6 +9,14 @@ namespace EasyPHP\Configuration;
 class Login {
   private static $AttemptsAllowed = 3;
   private static $SessionIndex = 'sidfid';
+ 
+  public static function setMaxAttempts(int $limit) {
+   self::$AttemptsAllowed = $limit;
+  }
+ 
+  public static function setSessionIndex($index) {
+   self::$SessionIndex = $index;
+  }
 }
 
 class Registration {
