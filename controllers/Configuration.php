@@ -40,11 +40,11 @@ class Registration {
     self::$IpLimit = $limit;
   }
   
-  public static function allowComplexPassword() {
+  public static function enableComplexPassword() {
     self::$RequiresComplexPassword = true;
   }
   
-  public static function disallowComplexPassword() {
+  public static function disableComplexPassword() {
     self::$RequiresComplexPassword = false;
   }
 }
