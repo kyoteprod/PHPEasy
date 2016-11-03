@@ -9,6 +9,11 @@ namespace EasyPHP\Configuration;
 class Login {
   private static $AttemptsAllowed = 3;
   private static $SessionIndex = 'sidfid';
+  private static $TimeOut = 2000;
+ 
+  public static function setTimeOut(int $timeout) {
+   self::$TimeOut = $timeout;
+  }
  
   public static function setMaxAttempts(int $limit) {
    self::$AttemptsAllowed = $limit;
