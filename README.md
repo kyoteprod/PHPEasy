@@ -6,6 +6,7 @@ Once downloading EasyPHP you can get started straight away. Simply include the A
 
 ```php
 EasyPHP\Configuration\Registration::generateActivationMessage();
-EasyPHP\Configuration\Registration::setActivationMessage('Thank-you for Registering with our Application!\n\nYou can activate your account by following this link: <a href='yourdomain/{activation_link}'>Add styling!</a>\n\nThis supports full HTML');
+EasyPHP\Configuration\Registration::setActivationMessage('Thank-you for Registering with our Application!\n\nYou can activate your account by following this link: <a href='yourdomain/{activation_link}'>Add styling to this btn!</a>\n\nThis supports full HTML');
 EasyPHP\Configuration\Registration::setIpLimit(1);
+EasyPHP\Configuration\Registration::disableComplexPassword();
 ```
